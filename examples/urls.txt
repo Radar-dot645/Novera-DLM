@@ -1,0 +1,3 @@
+# Ganti URL contoh berikut dengan URL file HTTP(S) yang memang tersedia.
+https://example.org/files/tool.zip
+https://example.org/files/app.apk

@@ -1,0 +1,21 @@
+[downloads]
+# On Termux, run `termux-setup-storage` first to enable shared storage.
+directory = "~/storage/downloads/Novera"
+concurrency = 3
+retries = 3
+timeout_seconds = 30
+resume = true
+overwrite_policy = "rename" # rename, skip, overwrite
+
+[ui]
+cinematic_seconds = 4
+color = true
+
+[network]
+# Mirrors are tried only after the original URL fails. They must be explicit HTTP(S) URLs.
+mirrors = []
+user_agent = "NoveraDLM/1.5.2"
+
+[security]
+max_redirects = 10
+max_file_size_mb = 0 # 0 = no app-level cap
